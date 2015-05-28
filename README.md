@@ -2,7 +2,8 @@
 
 ・Wikipediaの各エントリのPageRankランクを計算
 
-・それを用いて作成したサービス
+・それを用いて作成したサービス([ネタにこまたったー](http://www.ai.cs.kobe-u.ac.jp/~akita/netter/))
+
 
 ## 中身詳細
 - calcPageRank : wikipediaのPageRankスコアをHadoop Streamingを用いて計算
