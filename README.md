@@ -11,7 +11,7 @@
 	+ job3 : job2の結果を降順ソート
 	+ showTopTen : PageRankスコアが高い上位10エントリを出力．"jawiki-20150512-categorylinks.sql"が必要
 
-### job1では"jawiki-20150512-pagelinks.sql"をHDFS上，このディレクトリに"jawiki-20150512-page.sql"が必要
+job1では"jawiki-20150512-pagelinks.sql"をHDFS上，このディレクトリに"jawiki-20150512-page.sql"が必要
 
 
 - public
