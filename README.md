@@ -2,7 +2,7 @@
 
 ・Wikipediaの各エントリのPageRankランクを計算
 
-・それを用いて作成したサービス([ネタにこまたったー](http://www.ai.cs.kobe-u.ac.jp/~akita/netter/))
+・それを用いて作成したサービス([ネタにこまったー](http://www.ai.cs.kobe-u.ac.jp/~akita/netter/))
 
 
 ## 中身詳細
