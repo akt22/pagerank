@@ -15,10 +15,7 @@ job1では"jawiki-20150512-pagelinks.sql"をHDFS上，このディレクトリ�
 
 job3では"jawiki-20150512-categorylinks.sql"がこのディレクトリに必要
 
-- public
-	- index.html : webページ
-	+ assets : jQueryやbootstap
-	+ css : cssファイル
-	+ node_modules : Twitter Stream APIやnode.jsのためのディレクトリ
-	+ js
-		- script.js : Twitter APIによるTweetの処理やajax通信でRNNによる予測を行うファイル
+
+- service
+	+ netter : ウェブページ
+	+ wiki : ページランクの出力結果を返す
