@@ -5,12 +5,14 @@ $('.category').click(function() {
 	addPageList(category);
 });
 
+// ajaxエラーメッセージ
 function errorMessage(XMLHttpRequest, textStatus, errorThrown){
 	$('<div></div>').attr("id", "XMLHttpRequest").html("XMLHttpRequest : " + XMLHttpRequest.status).appendTo("body");
 	$('<div></div>').attr("id", "textStatus").html("textStatus : " + textStatus).appendTo("body");
 	$('<div></div>').attr("id", "errorThrown").html("errorThrown : " + errorThrown.message).appendTo("body");
 }
 
+// ページランク出力
 function showResult (pageList) {
 	console.log(pageList);
 	$('#tweetList').empty();
@@ -21,6 +23,7 @@ function showResult (pageList) {
 	}
 }
 
+// ajax通信を行い，ページランクを取得してくる
 function addPageList (cat) {
 	console.log(cat);
 	var category = {
